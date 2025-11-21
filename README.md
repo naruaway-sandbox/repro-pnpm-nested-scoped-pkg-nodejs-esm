@@ -4,6 +4,8 @@
 
 ## How to test this repro
 
+You can [try in StackBlitz](https://stackblitz.com/~/github.com/naruaway-sandbox/repro-pnpm-nested-scoped-pkg-nodejs-esm) or you can try in your local by following:
+
 ```
 pnpm install
 pnpm -C packages/pkg-b run test

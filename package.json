@@ -3,6 +3,9 @@
   "type": "module",
   "packageManager": "pnpm@10.20.0",
   "private": true,
+  "scripts": {
+    "start": "pnpm -C packages/pkg-b run test"
+  },
   "devEngines": {
     "runtime": {
       "name": "node",

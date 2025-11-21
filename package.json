@@ -1,0 +1,14 @@
+{
+  "name": "repro-pnpm-nested-scoped-pkg-nodejs-esm",
+  "type": "module",
+  "packageManager": "pnpm@10.20.0",
+  "private": true,
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "25.2.1",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {}
+}

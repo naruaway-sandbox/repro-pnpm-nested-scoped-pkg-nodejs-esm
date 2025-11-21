@@ -1,0 +1,12 @@
+{
+  "name": "@naruaway/myinternalpkg/b",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "dependencies": {
+    "@naruaway/myinternalpkg/a": "workspace:"
+  },
+  "exports": "main.js"
+}

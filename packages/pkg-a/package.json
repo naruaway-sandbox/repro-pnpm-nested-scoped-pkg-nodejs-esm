@@ -1,0 +1,6 @@
+{
+  "name": "@naruaway/myinternalpkg/a",
+  "private": true,
+  "type": "module",
+  "exports": "main.js"
+}
